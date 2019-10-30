@@ -144,7 +144,7 @@ void mostrar(int token)
 #include <string>
 #include <cstring>
 
-/*ASIGNACION DE MACROS*/
+
 #define MAYOR '>'
 #define MAYORIGUAL 258
 #define MENOR '<'
@@ -203,16 +203,16 @@ int main(int n,char *pal[]){
 		f=fopen(pal[1],"rt");
 		if(f==NULL)
 		{
-			printf("Error,no se pudo abrir el archivo\n");
+			printf("Error al abrir archivo\n");
 			f=stdin;
 		}
 		else
 		{
-			printf("Todo ok\n");
+			printf("Se abrio correctamente\n");
 		}
 	}
 	if(f==stdin)
-		printf("Terminar con Ctrl z\n");
+		printf("Ingrese texto..... termine con Ctrl z\n");
 	while(1)
 	{
 
