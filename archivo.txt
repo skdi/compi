@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <conio.h>
+#include <iostream>
+
+/*Comentario de prueba*/
+
+using namespace std;
+int preanalisis;
+
+void parea(int);
+void A();
+void B();
+void error();
+void S();
+
+void exp();
+void resto();
+void term();
+
+
+int main(int argc, char const *argv[])
+{
+	preanalisis=getchar();
+	//S();
+	exp();
+	return 0;
+}
